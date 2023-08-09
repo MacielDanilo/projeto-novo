@@ -1,0 +1,47 @@
+@charset "UTF-8";
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto+Condensed:wght@700&display=swap');
+
+:root{
+    --cor01: #56E182;
+    --cor02: #12DB51;
+    --cor03: #0DA83E;
+    --cor04: #075C22;
+    
+}
+body{
+   background-color: var(--cor01);
+   margin: auto;
+}
+header{
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom:10px;
+    background-color: var(--cor04);
+    color: rgba(255, 255, 255, 0.808);
+}
+header h1{
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 4em;
+    text-shadow: 2px 2px 2px black;
+}
+header p{
+    font-size: 1.3em;
+}
+nav{
+    background-color: var(--cor04);
+    padding-bottom: 20px;
+    margin: auto;
+}
+nav a{
+    padding-right: 15px;
+    padding-left: 15px;
+    text-decoration: none;
+    color: white;
+}
+nav a:hover{
+    background-color: var(--cor02);
+    margin: auto;
+    padding: 15px;
+    border-radius: 6px;
+    
+}
